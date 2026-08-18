@@ -7,6 +7,11 @@
 <title>指示語読解プリントメーカー</title>
 
 <style>
+   :root{
+    --brand:#6b3fa0;
+    --brand-light:#eee5f7;
+    --accent:#f28c28;
+}
 
 /* =========================================================
    基本
@@ -223,10 +228,18 @@ button{
 }
 
 .mainTitle{
-    color:#4d326f;
+    background:#6b3fa0;
+    color:#fff;
+
     font-size:25px;
     font-weight:bold;
     letter-spacing:2px;
+
+    padding:6px 16px;
+
+    border-radius:5px;
+
+    box-shadow:0 2px 0 rgba(0,0,0,.08);
 }
 
 .levelBadge{
@@ -551,9 +564,8 @@ button{
 }
 
 .answerCell{
-
-    width:8mm;
-    height:8mm;
+    width:10mm;
+    height:10mm;
 
     border-right:1px solid #8d75a9;
     border-bottom:1px solid #8d75a9;
@@ -839,7 +851,7 @@ button{
             <input
                 id="titleInput"
                 type="text"
-                value="指示語読解"
+                value="指示語特訓プリント"
             >
 
 
