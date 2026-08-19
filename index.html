@@ -4,14 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>指示語読解プリントメーカー</title>
+<title>指示語特訓プリントメーカー</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
    :root{
     --brand:#7046a3;
+    --brand-dark:#5b3b82;
     --brand-light:#eee5f7;
+    --line:#b9a8cc;
     --accent:#f28c28;
 }
 
@@ -763,7 +765,7 @@ button{
 <div class="editor">
 
     <h1 class="editorTitle">
-        指示語読解プリントメーカー
+        指示語特訓プリントメーカー
     </h1>
 
     <p class="editorLead">
@@ -933,7 +935,7 @@ button{
                     class="mainTitle"
                     id="studentTitle"
                 >
-                    指示語読解
+                    指示語特訓
                 </div>
 
 
@@ -967,7 +969,7 @@ button{
         <div class="studentFooter">
 
             <span>
-                指示語読解
+                指示語特訓プリント
             </span>
 
             <span>
@@ -990,7 +992,7 @@ button{
         <div class="teacherHeader">
 
             <div class="teacherTitle">
-                指示語読解　教師用
+                指示語特訓プリント解説　教師用
             </div>
 
             <div
@@ -1011,7 +1013,7 @@ button{
 
         <div class="teacherFooter">
 
-            指示語読解　教師用
+            指示語特訓プリント解説　教師用
 
         </div>
 
@@ -1606,7 +1608,7 @@ function makePrint(){
         document.getElementById(
             "titleInput"
         ).value.trim()
-        || "指示語読解";
+        || "指示語特訓";
 
 
     const level =
